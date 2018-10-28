@@ -1,6 +1,11 @@
 <template>
   <div class="hello">
+
+
     <h1>{{ msg }}</h1>
+
+
+
 
     <div style='display:inline-block;width:100px;' v-for="cat in category" :key="cat.team">
            <div >{{cat.team}}
